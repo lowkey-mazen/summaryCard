@@ -1,0 +1,138 @@
+.whole-thing{
+  display: flex;
+  width: 600px;
+  margin-top: 150px;
+  margin-left: 450px;
+}
+.left-side,
+.right-side{
+  flex: 1;
+}
+.left-side{
+  background-image: linear-gradient(rgb(92, 76, 172), rgb(38, 14, 255));
+  border-radius: 20px;
+  height: 400px;
+}
+.right-side{
+  background-color: white;
+  border-radius: 20px;
+}
+div{
+  text-align: center;
+}
+span{
+  color: white;
+  font-size: 50px;
+}
+.score{
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: grey;
+  font-size: 10px;
+  font-weight: bold;
+}
+.great{
+  font-size: 25px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.your-result{
+  margin-top: 30px;
+  color: rgb(159, 156, 156);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.reaction{
+  background-color: hsla(0,100%,80%,0.2);
+  color: hsl(0, 100%, 67%);
+  width: 220px;
+  height: 40px;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 30px;
+  border-radius: 8px;
+  padding-top:2px ;
+  padding-bottom: 2px;
+}
+.memory{
+  background-color: hsla(39,100%,80%,0.2);
+  color: hsl(39, 100%, 56%);
+  width: 220px;
+  height: 40px;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 15px;
+  border-radius: 8px;
+  padding-top:2px ;
+  padding-bottom: 2px;
+}
+.verbal{
+  background-color: hsla(166,100%,80%,0.2);
+  color: hsl(166, 100%, 37%);
+  width: 220px;
+  height: 40px;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-top: 15px ;
+  border-radius: 8px;
+  padding-top:2px ;
+  padding-bottom: 2px;
+}
+.visual{
+  background-color: hsla(234,100%,80%,0.2);
+  color: hsl(234, 85%, 45%);
+  width: 220px;
+  height: 40px;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 0px; 
+  margin-top: 15px;
+  border-radius: 8px;
+  padding-top:2px ;
+  padding-bottom: 2px;
+}
+.summary{
+  text-align: left;
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  font-size: larger;
+}
+.continue-button{
+  background-color: rgb(40, 44, 60);
+  color: white;
+  font-weight: bold;
+  padding-left:80px;
+  padding-right: 80px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 30px;
+  border-width: 0;
+  margin-top: 30px;
+}
+.continue-button:hover{
+  cursor: pointer;
+  background-image: linear-gradient(rgb(92, 76, 172), rgb(38, 14, 255));
+}
+.bolt,.brain,.comment,.eye{
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 8px;
+}
+.reaction-para,.memory-para,.verbal-para,.visual-para{
+  margin-top: -22px;
+  margin-left: 33px;
+  font-size: 15px;
+}
+.some-text{
+  width: 300px;
+  margin-left: 10px;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(160, 163, 165);
+}
